@@ -7,23 +7,23 @@ public class Main {
 
         Methods methods = new Methods();
 
-        List<String> tasks = new ArrayList<>(List.of(
+        List<String> tasks = new ArrayList<>(Arrays.asList(
                 "Task 1", "Task 2", "Task 3", "Task 4"
         ));
 
-        List<String> duplicates = new ArrayList<>(List.of(
+        List<String> duplicates = new ArrayList<>(Arrays.asList(
                 "Apple", "Lenovo", "Lenovo", "Motorola", "Apple"
         ));
 
-        List<String> english = new ArrayList<>(List.of(
+        List<String> english = new ArrayList<>(Arrays.asList(
                 "Book", "Sun", "Water", "House", "Tree",
                 "Friend", "Blue", "Travel", "Computer", "Moon"
         ));
 
-        List<String> romanian = new ArrayList<>(List.of(
+        List<String> romanian = new ArrayList<>(Arrays.asList(
                 "Carte", "Soare", "Apa", "Casa", "Copac",
-                "Prieten", "Albastru", "Calatorie", "Calculator", "Luna"
-        ));
+                        "Prieten", "Albastru", "Calatorie", "Calculator", "Luna"
+                ));
 
 
         // Exercise 1
