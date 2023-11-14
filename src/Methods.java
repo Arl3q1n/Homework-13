@@ -13,7 +13,7 @@ public class Methods {
 
     }
 
-    public HashSet<String> returnUniqueValues(List<String> list_) {
+    public Set<String> returnUniqueValues(List<String> list_) {
 
         return new HashSet<>(list_);
     }

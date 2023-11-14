@@ -22,7 +22,7 @@ public class Main {
 
         List<String> romanian = new ArrayList<>(Arrays.asList(
                 "Carte", "Soare", "Apa", "Casa", "Copac",
-                        "Prieten", "Albastru", "Calatorie", "Calculator", "Luna"
+                "Prieten", "Albastru", "Calatorie", "Calculator", "Luna"
                 ));
 
 
@@ -37,14 +37,6 @@ public class Main {
         // Exercise 3
         System.out.println("\n");
         methods.translateEnglishToRomanian(english, romanian);
-
-
-
-
-
-
-
-
 
     }
 }
